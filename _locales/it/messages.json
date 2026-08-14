@@ -1,0 +1,19 @@
+{
+  "appName": {"message": "Prismate"},
+  "accessibilityTool": {"message": "Strumento di accessibilità"},
+  "appearance": {"message": "Aspetto"},
+  "chooseFilter": {"message": "Scegli un filtro"},
+  "off": {"message": "Disattivato"},
+  "protanopia": {"message": "Protanopia"},
+  "protanomaly": {"message": "Protanomalia"},
+  "deuteranopia": {"message": "Deuteranopia"},
+  "deuteranomaly": {"message": "Deuteranomalia"},
+  "tritanopia": {"message": "Tritanopia"},
+  "tritanomaly": {"message": "Tritanomalia"},
+  "achromatopsia": {"message": "Acromatopsia"},
+  "achromatomaly": {"message": "Acromatopsia parziale"},
+  "ready": {"message": "Pronto"},
+  "applied": {"message": "Filtro applicato a questa pagina"},
+  "unsupportedPage": {"message": "Questa pagina non supporta Prismate"},
+  "language": {"message": "Lingua"}
+}

@@ -1,0 +1,19 @@
+{
+  "appName": {"message": "Prismate"},
+  "accessibilityTool": {"message": "无障碍工具"},
+  "appearance": {"message": "显示"},
+  "chooseFilter": {"message": "选择滤镜"},
+  "off": {"message": "关闭"},
+  "protanopia": {"message": "红色盲"},
+  "protanomaly": {"message": "红色弱"},
+  "deuteranopia": {"message": "绿色盲"},
+  "deuteranomaly": {"message": "绿色弱"},
+  "tritanopia": {"message": "蓝黄色盲"},
+  "tritanomaly": {"message": "蓝黄色弱"},
+  "achromatopsia": {"message": "全色盲"},
+  "achromatomaly": {"message": "部分全色盲"},
+  "ready": {"message": "准备就绪"},
+  "applied": {"message": "已应用到此页面"},
+  "unsupportedPage": {"message": "此页面不支持 Prismate"},
+  "language": {"message": "语言"}
+}

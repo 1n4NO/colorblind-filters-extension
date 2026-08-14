@@ -1,0 +1,61 @@
+:root {
+  color-scheme: dark;
+  --ink: #f7f3ed;
+  --muted: #a9a8b2;
+  --panel: #17181e;
+  --panel-raised: #22232b;
+  --line: #343640;
+  --accent: #6de0c2;
+  --accent-ink: #102622;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  width: 360px;
+  margin: 0;
+  background: #0e0f13;
+  color: var(--ink);
+  font: 13px/1.35 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button, select { font: inherit; }
+
+.popup-shell { padding: 20px; }
+
+.brand-header, .section-heading, .language-control {
+  display: flex;
+  align-items: center;
+}
+
+.brand-header { gap: 11px; margin-bottom: 24px; }
+.brand-mark { width: 38px; height: 38px; border-radius: 11px; }
+h1, h2, p { margin: 0; }
+h1 { font-size: 21px; letter-spacing: -0.04em; }
+h2 { font-size: 17px; letter-spacing: -0.025em; }
+.eyebrow { color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; }
+.section-heading { justify-content: space-between; margin-bottom: 12px; }
+.status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgba(109, 224, 194, .12); }
+.filter-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+.filter-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 42px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+  transition: background .16s ease, border-color .16s ease, transform .16s ease;
+}
+.filter-button:hover { background: var(--panel-raised); border-color: #5b5d6b; transform: translateY(-1px); }
+.filter-button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.filter-button[aria-pressed="true"] { border-color: var(--accent); background: var(--accent); color: var(--accent-ink); font-weight: 700; }
+.filter-button small { color: var(--muted); font-size: 10px; }
+.filter-button[aria-pressed="true"] small { color: var(--accent-ink); opacity: .7; }
+.status-message { min-height: 18px; margin-top: 10px; color: var(--muted); font-size: 11px; }
+.language-control { justify-content: space-between; gap: 12px; margin-top: 18px; padding-top: 15px; border-top: 1px solid var(--line); color: var(--muted); font-weight: 600; }
+select { max-width: 170px; padding: 6px 25px 6px 9px; border: 1px solid var(--line); border-radius: 7px; background: var(--panel); color: var(--ink); }

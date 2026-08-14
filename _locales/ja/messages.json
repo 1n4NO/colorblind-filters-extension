@@ -1,0 +1,19 @@
+{
+  "appName": {"message": "Prismate"},
+  "accessibilityTool": {"message": "アクセシビリティツール"},
+  "appearance": {"message": "表示"},
+  "chooseFilter": {"message": "フィルターを選択"},
+  "off": {"message": "オフ"},
+  "protanopia": {"message": "1型色覚"},
+  "protanomaly": {"message": "1型色覚（弱）"},
+  "deuteranopia": {"message": "2型色覚"},
+  "deuteranomaly": {"message": "2型色覚（弱）"},
+  "tritanopia": {"message": "3型色覚"},
+  "tritanomaly": {"message": "3型色覚（弱）"},
+  "achromatopsia": {"message": "全色盲"},
+  "achromatomaly": {"message": "全色盲（弱）"},
+  "ready": {"message": "準備完了"},
+  "applied": {"message": "このページにフィルターを適用しました"},
+  "unsupportedPage": {"message": "このページではPrismateを使用できません"},
+  "language": {"message": "言語"}
+}

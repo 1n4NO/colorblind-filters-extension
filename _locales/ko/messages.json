@@ -1,0 +1,19 @@
+{
+  "appName": {"message": "Prismate"},
+  "accessibilityTool": {"message": "접근성 도구"},
+  "appearance": {"message": "화면"},
+  "chooseFilter": {"message": "필터 선택"},
+  "off": {"message": "끔"},
+  "protanopia": {"message": "적색맹"},
+  "protanomaly": {"message": "적색약"},
+  "deuteranopia": {"message": "녹색맹"},
+  "deuteranomaly": {"message": "녹색약"},
+  "tritanopia": {"message": "청황색맹"},
+  "tritanomaly": {"message": "청황색약"},
+  "achromatopsia": {"message": "전색맹"},
+  "achromatomaly": {"message": "부분 전색맹"},
+  "ready": {"message": "준비됨"},
+  "applied": {"message": "이 페이지에 필터를 적용했습니다"},
+  "unsupportedPage": {"message": "이 페이지에서는 Prismate를 사용할 수 없습니다"},
+  "language": {"message": "언어"}
+}

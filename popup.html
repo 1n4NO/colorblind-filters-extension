@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prismate</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup-shell">
+      <header class="brand-header">
+        <img class="brand-mark" src="icons/icon48.png" alt="">
+        <div>
+          <p class="eyebrow" data-i18n="accessibilityTool">Accessibility tool</p>
+          <h1 data-i18n="appName">Prismate</h1>
+        </div>
+      </header>
+
+      <section class="filter-section" aria-labelledby="filter-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="appearance">Appearance</p>
+            <h2 id="filter-heading" data-i18n="chooseFilter">Choose a filter</h2>
+          </div>
+          <span class="status-dot" aria-hidden="true"></span>
+        </div>
+        <div class="filter-grid" role="group" aria-labelledby="filter-heading">
+          <button class="filter-button" type="button" data-filter="off"><span data-i18n="off">Off</span><small>0</small></button>
+          <button class="filter-button" type="button" data-filter="protanopia"><span data-i18n="protanopia">Protanopia</span><small>1</small></button>
+          <button class="filter-button" type="button" data-filter="protanomaly"><span data-i18n="protanomaly">Protanomaly</span><small>2</small></button>
+          <button class="filter-button" type="button" data-filter="deuteranopia"><span data-i18n="deuteranopia">Deuteranopia</span><small>3</small></button>
+          <button class="filter-button" type="button" data-filter="deuteranomaly"><span data-i18n="deuteranomaly">Deuteranomaly</span><small>4</small></button>
+          <button class="filter-button" type="button" data-filter="tritanopia"><span data-i18n="tritanopia">Tritanopia</span><small>5</small></button>
+          <button class="filter-button" type="button" data-filter="tritanomaly"><span data-i18n="tritanomaly">Tritanomaly</span><small>6</small></button>
+          <button class="filter-button" type="button" data-filter="achromatopsia"><span data-i18n="achromatopsia">Achromatopsia</span><small>7</small></button>
+          <button class="filter-button" type="button" data-filter="achromatomaly"><span data-i18n="achromatomaly">Achromatomaly</span><small>8</small></button>
+        </div>
+        <p class="status-message" role="status" aria-live="polite" data-i18n="ready">Ready</p>
+      </section>
+
+      <label class="language-control" for="language-select">
+        <span data-i18n="language">Language</span>
+        <select id="language-select">
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+          <option value="pt_BR">Português</option>
+          <option value="it">Italiano</option>
+          <option value="hi">हिन्दी</option>
+          <option value="ja">日本語</option>
+          <option value="ko">한국어</option>
+          <option value="zh_CN">简体中文</option>
+        </select>
+      </label>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

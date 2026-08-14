@@ -1,0 +1,19 @@
+{
+  "appName": {"message": "Prismate"},
+  "accessibilityTool": {"message": "सुलभता उपकरण"},
+  "appearance": {"message": "दिखावट"},
+  "chooseFilter": {"message": "फ़िल्टर चुनें"},
+  "off": {"message": "बंद"},
+  "protanopia": {"message": "प्रोटानोपिया"},
+  "protanomaly": {"message": "प्रोटानोमली"},
+  "deuteranopia": {"message": "ड्यूटेरानोपिया"},
+  "deuteranomaly": {"message": "ड्यूटेरानोमली"},
+  "tritanopia": {"message": "ट्रिटानोपिया"},
+  "tritanomaly": {"message": "ट्रिटानोमली"},
+  "achromatopsia": {"message": "अक्रोमैटोप्सिया"},
+  "achromatomaly": {"message": "आंशिक अक्रोमैटोप्सिया"},
+  "ready": {"message": "तैयार"},
+  "applied": {"message": "इस पेज पर फ़िल्टर लागू है"},
+  "unsupportedPage": {"message": "यह पेज Prismate का समर्थन नहीं करता"},
+  "language": {"message": "भाषा"}
+}

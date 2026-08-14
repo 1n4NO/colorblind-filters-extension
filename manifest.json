@@ -1,24 +1,23 @@
 {
     "manifest_version": 3,
-    "name": "Colorblind Filters",
-    "version": "1.0",
+    "name": "Prismate",
+    "version": "1.2",
+    "default_locale": "en",
     "description": "Apply colorblind filters to any webpage.",
     "action": {
       "default_icon": {
         "16": "icons/icon16.png",
         "48": "icons/icon48.png",
         "128": "icons/icon128.png"
-      }
+      },
+      "default_popup": "popup.html"
     },
-    "permissions": ["activeTab", "scripting"],
-    "background": {
-      "service_worker": "background.js"
-    },
+    "permissions": ["activeTab", "scripting", "storage"],
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["content.js"]
+        "js": ["content.js"],
+        "run_at": "document_idle"
       }
     ]
   }
-  
